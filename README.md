@@ -40,43 +40,43 @@
 
 | Desktop | Mobile |
 |---|---|
-| ![Home Desktop](screenshots/home.png) | ![Home Mobile](screenshots/home-mobile.png) |
+| ![Home Desktop](public/screenshots/home.png) | ![Home Mobile](public/screenshots/home-mobile.png) |
 
 ### Halaman Layanan
-![Halaman Layanan](screenshots/services.png)
+![Halaman Layanan](public/screenshots/services.png)
 
 ### Halaman Portfolio
-![Halaman Portfolio](screenshots/portfolio.png)
+![Halaman Portfolio](public/screenshots/portfolio.png)
 
 ### Halaman Blog
-![Halaman Blog](screenshots/blog.png)
+![Halaman Blog](public/screenshots/blog.png)
 
 ### Halaman Tentang
-![Halaman Tentang](screenshots/about.png)
+![Halaman Tentang](public/screenshots/about.png)
 
 ### Halaman Kontak
-![Halaman Kontak](screenshots/contact.png)
+![Halaman Kontak](public/screenshots/contact.png)
 
 ### Halaman Login
-![Halaman Login](screenshots/login.png)
+![Halaman Login](public/screenshots/login.png)
 
 ### Admin Panel
 
 | Dashboard | Services |
 |---|---|
-| ![Admin Dashboard](screenshots/admin-dashboard.png) | ![Admin Services](screenshots/admin-services.png) |
+| ![Admin Dashboard](public/screenshots/admin-dashboard.png) | ![Admin Services](public/screenshots/admin-services.png) |
 
 | Portfolios | Blogs |
 |---|---|
-| ![Admin Portfolios](screenshots/admin-portfolios.png) | ![Admin Blogs](screenshots/admin-blogs.png) |
+| ![Admin Portfolios](public/screenshots/admin-portfolios.png) | ![Admin Blogs](public/screenshots/admin-blogs.png) |
 
 | Testimonials | Team Members |
 |---|---|
-| ![Admin Testimonials](screenshots/admin-testimonials.png) | ![Admin Team](screenshots/admin-team.png) |
+| ![Admin Testimonials](public/screenshots/admin-testimonials.png) | ![Admin Team](public/screenshots/admin-team.png) |
 
 | Settings |
 |---|
-| ![Admin Settings](screenshots/admin-settings.png) |
+| ![Admin Settings](public/screenshots/admin-settings.png) |
 
 ---
 
