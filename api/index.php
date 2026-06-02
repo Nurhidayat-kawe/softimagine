@@ -4,15 +4,14 @@ use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
-$tmpDirs = [
-    '/tmp/storage/framework/views',
-    '/tmp/storage/logs',
-];
-foreach ($tmpDirs as $dir) {
-    if (!is_dir($dir)) {
-        mkdir($dir, 0775, true);
-    }
+$tmpDir = '/tmp/storage';
+if (!is_dir($tmpDir)) {
+    @mkdir($tmpDir . '/framework/views', 0775, true);
+    @mkdir($tmpDir . '/logs', 0775, true);
 }
+
+$_SERVER['SCRIPT_FILENAME'] = __DIR__ . '/index.php';
+$_SERVER['SCRIPT_NAME'] = '/api/index.php';
 
 if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php')) {
     require $maintenance;

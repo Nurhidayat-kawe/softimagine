@@ -1,7 +1,5 @@
-ing: mkdir(): Read-only file system in /var/task/user/api/index.php on line 10
+🐘 Accessing softimagine-mokgsq20u-softimagine-s-projects.vercel.app/
+🐘 Querying /
+🐘STDERR: [Tue Jun  2 01:29:05 2026] 127.0.0.1:40026 Accepted
 
-Warning: mkdir(): Read-only file system in /var/task/user/api/index.php on line 10
-
-Warning: mkdir(): Read-only file system in /var/task/user/api/index.php on line 10
-
-Warning: mkdir(): Read-only file system in /var/task/user/api/index.php on line 14
+🐘STDERR: [Tue Jun  2 01:29:05 2026] 127.0.0.1:40026 Closing
