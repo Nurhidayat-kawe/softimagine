@@ -6,13 +6,9 @@
             "maxDuration": 30
         }
     },
+    "outputDirectory": "public",
+    "buildCommand": "npm ci && npm run build",
     "routes": [
-        { "src": "/build/(.*)", "dest": "/public/build/$1" },
-        { "src": "/storage/(.*)", "dest": "/public/storage/$1" },
-        { "src": "/images/(.*)", "dest": "/public/images/$1" },
-        { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
-        { "src": "/robots.txt", "dest": "/public/robots.txt" },
-        { "src": "/(.*)\\.(.*)$", "dest": "/public/$1.$2" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ]
 }
